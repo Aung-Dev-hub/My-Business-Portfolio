@@ -1,0 +1,8 @@
+npm install @react-three/drei
+npm install @react-three/postprocessing postprocessing
+npm install aos
+npm install ogl
+npm install react-hot-toast
+npm install react-icons
+npm install react-responsive
+npm install typewriter-effect
