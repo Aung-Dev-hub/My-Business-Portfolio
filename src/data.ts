@@ -222,7 +222,7 @@ export const socialLinks: SocialLink[] = [
     {
         icon: FaGithub,
         title: "GitHub",
-        link: "https://github.com/AungMyoOo-Dev",
+        link: "https://github.com/Aung-Dev-hub",
     },
     {
         icon: FaLinkedin,
