@@ -7,18 +7,16 @@ import Skills from "@/components/skills/Skills";
 import AnimationLayout from "@/components/layouts/AnimationLayout";
 import { Toaster } from "react-hot-toast";
 
-export default function page() {
+export default function Page() {
   return (
-    <>
-      <AnimationLayout>
-        <HeroSection />
-        <About/>
-        <ServiceSection />
-        <Skills />
-        <ProjectSection />
-        <ContactSection />
-        <Toaster/>
-      </AnimationLayout>
-    </>
+    <AnimationLayout>
+      <HeroSection />
+      <About />
+      <ServiceSection />
+      <Skills />
+      <ProjectSection />
+      <ContactSection />
+      <Toaster />
+    </AnimationLayout>
   );
 }

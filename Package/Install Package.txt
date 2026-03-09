@@ -6,3 +6,4 @@ npm install react-hot-toast
 npm install react-icons
 npm install react-responsive
 npm install typewriter-effect
+npm install @fluentui/react-icons

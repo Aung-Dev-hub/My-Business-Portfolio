@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { skillCategories } from "@/data";
 import Header from "../general/Header";
 
@@ -17,21 +18,28 @@ export default function Skills() {
             <div className="flex flex-wrap justify-center gap-6">
               {category.skills.map((skill, index) => {
                 const Icon = skill.icon;
+
                 return (
-                  <div
+                  <Link
                     key={index}
-                    data-aos="flip-right"
-                    data-aos-delay={index * 100}
-                    className="bg-slate-900 text-center w-40 h-48 rounded-3xl flex flex-col items-center justify-center shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-indigo-500/30"
+                    href={`/skills/${skill.name.toLowerCase()}`}
                   >
-                    <div className="text-5xl text-gray-300">
-                      <Icon />
+                    <div
+                      data-aos="flip-right"
+                      data-aos-delay={index * 100}
+                      className="bg-slate-900 text-center w-40 h-48 rounded-3xl flex flex-col items-center justify-center shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-indigo-500/30 cursor-pointer"
+                    >
+                      <div className="text-5xl text-gray-300">
+                        <Icon />
+                      </div>
+                      <p className="text-2xl font-semibold my-4 text-gray-200">
+                        {skill.skillLevel}%
+                      </p>
+                      <p className="text-indigo-500 text-1xl font-bold">
+                        {skill.name}
+                      </p>
                     </div>
-                    <p className="text-2xl font-semibold my-4 text-gray-200">
-                      {skill.skillLevel}%
-                    </p>
-                    <p className="text-indigo-500 text-1xl font-bold">{skill.name}</p>
-                  </div>
+                  </Link>
                 );
               })}
             </div>

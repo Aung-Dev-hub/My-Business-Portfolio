@@ -1,5 +1,5 @@
 import { FaNodeJs, FaCloud, FaMapPin, FaBriefcase, FaGraduationCap } from "react-icons/fa";
-import { SiTypescript, SiPython, SiPhp, SiPostgresql, SiMongodb, SiFigma, SiReact, SiExpress, SiGit, SiSpine, SiVercel, SiPostman } from "react-icons/si";
+import { SiTypescript, SiPython, SiPhp, SiPostgresql, SiMongodb, SiFigma, SiReact, SiExpress, SiGit,  SiVercel,SiPowers, SiPostman } from "react-icons/si";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { DiJavascript } from "react-icons/di";
 
@@ -30,6 +30,8 @@ interface SkillCategory {
     title: string;
     skills: Skill[];
 }
+
+
 
 interface ContactInfo {
     icon: IconType;
@@ -111,11 +113,11 @@ export const skillCategories: SkillCategory[] = [
         title: "Frontend",
         skills: [
             { name: "JavaScript", icon: DiJavascript, skillLevel: 80 },
-            { name: "React.jS", icon: SiReact, skillLevel: 80 },
+            { name: "React", icon: SiReact, skillLevel: 80 },
             { name: "TailwindCSS", icon: RiTailwindCssFill, skillLevel: 80 },
             { name: "TypeScript", icon: SiTypescript, skillLevel: 60 },
             { name: "ReactNative", icon: SiReact, skillLevel: 60 },
-            { name: "Next.jS", icon: RiNextjsFill, skillLevel: 60 },
+            { name: "Next", icon: RiNextjsFill, skillLevel: 60 },
         ],
     },
     {
@@ -123,8 +125,8 @@ export const skillCategories: SkillCategory[] = [
         skills: [
             { name: "Python", icon: SiPython, skillLevel: 80 },
             { name: "MongoDB", icon: SiMongodb, skillLevel: 80 },
-            { name: "Node.jS", icon: FaNodeJs, skillLevel: 80 },
-            { name: "Express.js", icon: SiExpress, skillLevel: 80 },
+            { name: "Node", icon: FaNodeJs, skillLevel: 80 },
+            { name: "Express", icon: SiExpress, skillLevel: 80 },
             { name: "PHP", icon: SiPhp, skillLevel: 50 },
             { name: "PostMySQL", icon: SiPostgresql, skillLevel: 50 },
         ],
@@ -136,7 +138,7 @@ export const skillCategories: SkillCategory[] = [
             { name: "Figma", icon: SiFigma, skillLevel: 80 },
             { name: "Postman", icon: SiPostman, skillLevel: 80 },
             { name: "Vercel", icon: SiVercel, skillLevel: 80 },
-            { name: "Spline", icon: SiSpine, skillLevel: 60 },
+           { name: "PowerApps", icon: SiPowers, skillLevel: 60 },
             { name: "AWS", icon: FaCloud, skillLevel: 50 },
         ],
     },
