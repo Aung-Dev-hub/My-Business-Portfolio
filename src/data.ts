@@ -227,22 +227,22 @@ export const socialLinks: SocialLink[] = [
     {
         icon: FaLinkedin,
         title: "LinkedIn",
-        link: "https://linkedin.com/in/yourusername",
+        link: "https://linkedin.com/in/aung-myo-oo-0ab50224a",
     },
-    {
-        icon: FaInstagram,
-        title: "Instagram",
-        link: "https://instagram.com/yourusername",
-    },
+    // {
+    //     icon: FaInstagram,
+    //     title: "Instagram",
+    //     link: "https://instagram.com/yourusername",
+    // },
     {
         icon: FaFacebook,
         title: "Facebook",
-        link: "https://facebook.com/yourusername",
+        link: "https://www.facebook.com/share/1Ag7EeKBuw/",
     },
     {
         icon: SiTelegram,
         title: "Telegram",
-        link: "https://t.me/yourusername",
+        link: "https://t.me/a21998",
     },
 ];
 
