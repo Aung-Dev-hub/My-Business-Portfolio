@@ -58,7 +58,7 @@ export default function ProjectCard({
             href={demoUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 rounded-full bg-linear-to-r hover:from-indigo-600 hover:to-purple-600 text-white px-8 py-2 mr-15 font-medium shadow-lg transition-all transform hover:scale-105  from-indigo-500 via-violet-500 to-indigo-900 animate-gradient"
+            className="flex items-center gap-2 rounded-full bg-linear-to-r hover:from-indigo-600 hover:to-purple-600 text-white px-8 py-2 mr-13 font-medium shadow-lg transition-all transform hover:scale-105  from-indigo-500 via-violet-500 to-indigo-900 animate-gradient"
           >
             <FaExternalLinkAlt className="text-sm" /> Demo
           </a>

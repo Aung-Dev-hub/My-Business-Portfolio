@@ -155,7 +155,7 @@ export const projects = [
         techStack: ["Next.js", "TypeScript", "MongoDB", "Stripe"],
         demoUrl: "https://example.com",
         githubUrl: "https://github.com",
-        category: "web",
+        category: "website",
     },
     {
         title: "E-Commerce Website",
@@ -165,7 +165,7 @@ export const projects = [
         techStack: ["Next.js", "TypeScript", "MongoDB", "Stripe"],
         demoUrl: "https://example.com",
         githubUrl: "https://github.com",
-        category: "web",
+        category: "website",
     },
     {
         title: "Portfolio Website",
@@ -175,7 +175,7 @@ export const projects = [
         techStack: ["Next.js", "TypeScript", "MongoDB", "Stripe"],
         demoUrl: "https://example.com",
         githubUrl: "https://github.com",
-        category: "web",
+        category: "website",
     },
     {
         title: "Task Management App",
