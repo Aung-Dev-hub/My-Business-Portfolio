@@ -124,9 +124,9 @@ export const skillCategories: SkillCategory[] = [
         title: "Backend",
         skills: [
             { name: "Python", icon: SiPython, skillLevel: 80 },
-            { name: "MongoDB", icon: SiMongodb, skillLevel: 80 },
-            { name: "Node", icon: FaNodeJs, skillLevel: 80 },
-            { name: "Express", icon: SiExpress, skillLevel: 80 },
+            { name: "MongoDB", icon: SiMongodb, skillLevel: 70 },
+            { name: "Node", icon: FaNodeJs, skillLevel: 70 },
+            { name: "Express", icon: SiExpress, skillLevel: 70 },
             { name: "PHP", icon: SiPhp, skillLevel: 50 },
             { name: "PostMySQL", icon: SiPostgresql, skillLevel: 50 },
         ],
