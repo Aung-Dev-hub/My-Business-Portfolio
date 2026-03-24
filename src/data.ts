@@ -52,7 +52,7 @@ export const navLinks = [
     { url: "#about", label: "About" },
     { url: "#services", label: "Services" },
     { url: "#skills", label: "Skills" },
-    { url: "#projects", label: "Projects" },
+   /* { url: "#projects", label: "Projects" }, */
     { url: "#contact", label: "Contact" },
 ];
 
