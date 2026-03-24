@@ -146,7 +146,7 @@ export const skillCategories: SkillCategory[] = [
 
 
 // Projects
-export const projects = [
+/*export const projects = [
     {
         title: "Modern Dashboard UI",
         imagePath: "/images/p1.webp",
@@ -188,7 +188,7 @@ export const projects = [
         category: "mobile",
 
     },
-];
+];*/
 
 //Contact
 export const contactData = {
