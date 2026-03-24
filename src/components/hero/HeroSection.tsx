@@ -66,7 +66,7 @@ export default function HeroSection() {
 
           <LinkButton 
             href="#projects"
-            text="View projects"
+            text="View"
             icon={LuArrowRight}
             iconPosition={"right"}
             rounded={true}
